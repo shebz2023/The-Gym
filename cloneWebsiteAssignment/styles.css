@@ -48,8 +48,19 @@ font-weight: lighter;
     background: url(/assets/kidReading.jpg);
     background-size: cover;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.seek-text{
+    height: 100px;
+    width: 70%;
+    display: flex;
+    align-items: end;
+    margin-bottom: 20px;
+    justify-content: start;
+    font-size: 30px;
+    color:white
 }
 .seek{
     height: 100px;
@@ -119,7 +130,7 @@ font-weight: lighter;
 .container-accomodation{
     height: 40vh;
     margin-top: 20px;
-    background-color: red;
+    /* background-color: red; */
 }
 .container-accomodation h1{
     font-weight: lighter;
@@ -152,5 +163,49 @@ font-weight: lighter;
 }
 .text-accomodation h2{
     font-size: smaller;
+    font-weight: lighter;
+}
+.container-accomodation2{
+    height: 50vh;
+}
+.card2{
+    height: 100%;
+    width: 20vw;
+    border-radius: 8px;
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+}
+.upper-part-card2{
+    border-radius: 12px;
+    height:45%;
+    background:url(/assets/house2.jpg);
+    background-size: cover;
+
+}
+.lower-part-card2{
+    height: 50%;
+}
+.lower-part-card2 .first{
+    height: 40px;
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+.first .greenbox{
+    height: 30px;
+    width: 30px;
+    background-color: seagreen;
+}
+
+.first p{
+    font-size: smaller;
+}
+.second h1{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.second p{
+    font-size: 13px;
     font-weight: lighter;
 }
